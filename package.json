@@ -34,5 +34,9 @@
     "sass": "^1.68.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^8.4.7"
-  }
+  },
+  "trustedDependencies": [
+    "core-js",
+    "swiper"
+  ]
 }
