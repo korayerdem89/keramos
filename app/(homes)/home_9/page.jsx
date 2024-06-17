@@ -18,7 +18,7 @@ export const metadata = {
   description: "GoTrip - Travel & Tour React NextJS Template",
 };
 
-const home_9 = () => {
+const home = () => {
   return (
     <>
       {/* End Page Title */}
@@ -227,4 +227,4 @@ const home_9 = () => {
   );
 };
 
-export default dynamic(() => Promise.resolve(home_9), { ssr: false });
+export default dynamic(() => Promise.resolve(home), { ssr: false });
