@@ -17,7 +17,7 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params: {locale} }) {
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
     });
   }, []);
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
