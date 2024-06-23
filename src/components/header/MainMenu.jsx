@@ -40,7 +40,6 @@ const MainMenu = ({ style = "" }) => {
 
    <Link href='/about'>About Us</Link>
    <Link href='/help-center'>FAQS</Link>
-
     <Link href='/blog-list-v1'>Blog</Link>
  
 

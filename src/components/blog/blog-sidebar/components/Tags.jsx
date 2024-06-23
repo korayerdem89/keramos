@@ -1,6 +1,5 @@
 import Link from "next/link";
 import blogsData from "../../../../data/blogs";
-
 const Tags = () => {
   return (
     <>

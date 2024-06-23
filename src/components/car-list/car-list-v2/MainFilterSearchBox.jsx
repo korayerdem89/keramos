@@ -1,7 +1,6 @@
 import DateSearch from "../common/DateSearch";
 import GuestSearch from "./GuestSearch";
 import LocationSearch from "./LocationSearch";
-
 const MainFilterSearchBox = () => {
   return (
     <>

@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import blogsData from "../../../../data/blogs";
-
 const RecentPost = () => {
   return (
     <>

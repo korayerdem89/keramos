@@ -1,6 +1,5 @@
 import Image from "next/image";
 import blogsData from "../../../data/blogs";
-
 const RelatedBlog = () => {
   return (
     <>

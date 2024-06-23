@@ -4,7 +4,6 @@ import Duration from "../sidebar/Duration";
 import Languages from "../sidebar/Languages";
 import PirceSlider from "../sidebar/PirceSlider";
 import PopularAttractions from "../sidebar/PopularAttractions";
-
 const Sidebar = () => {
   return (
     <>

@@ -1,4 +1,5 @@
 const TourSnapShot = () => {
+  
   return (
     <div className="row y-gap-30 justify-between pt-20">
       <div className="col-md-auto col-6">

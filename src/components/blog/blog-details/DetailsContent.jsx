@@ -1,7 +1,6 @@
 import Social2 from "../../common/social/Social2";
 import blogsData from "../../../data/blogs";
 import Link from "next/link";
-
 const DetailsContent = () => {
   return (
     <>

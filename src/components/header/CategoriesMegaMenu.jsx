@@ -9,7 +9,6 @@ import {
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
-
 const CategoriesMegaMenu = ({setIsActiveParent}) => {
   const pathname = usePathname();
   const [activeNestedMenu, setActiveNestedMenu] = useState(0)

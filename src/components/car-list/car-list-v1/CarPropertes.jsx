@@ -1,6 +1,5 @@
 
 'use client'
-
 import carsData from "../../../data/cars";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
