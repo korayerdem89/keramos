@@ -1,16 +1,19 @@
+import { useTranslations } from "next-intl";
+
 const ContactInfo = () => {
+  const t = useTranslations("Footer");
   const contactContent = [
     {
       id: 1,
-      title: "Toll Free Customer Care",
+      title: t("phone"),
       action: "tel:+(1) 123 456 7890",
-      text: "+(1) 123 456 7890",
+      text: "+(90) 123 456 7890",
     },
     {
       id: 2,
-      title: "Need live support?",
+      title: t("email"),
       action: "mailto:xyz@abc.com",
-      text: "hi@gotrip.com",
+      text: "info@keramos.com",
     },
   ];
   return (
