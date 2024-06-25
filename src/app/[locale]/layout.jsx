@@ -10,6 +10,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/effect-cards";
 import "aos/dist/aos.css";
 import "@/styles/index.scss";
+
 import { Provider } from "react-redux";
 import { store } from "@/store/store";
 
@@ -17,7 +18,7 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 
-export default function RootLayout({ children, params: {locale} }) {
+export default function RootLayout({ children, params: { locale } }) {
   useEffect(() => {
     Aos.init({
       duration: 1200,
@@ -27,12 +28,9 @@ export default function RootLayout({ children, params: {locale} }) {
   return (
     <html lang={locale}>
       <head>
+        <link rel="stylesheet" href="https://video-react.github.io/assets/video-react.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="true"
-        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link
           href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap"
           rel="stylesheet"

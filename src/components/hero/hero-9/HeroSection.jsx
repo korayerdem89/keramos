@@ -2,8 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
-import MainFilterSearchBox from "./MainFilterSearchBox";
-import { Parallax } from "react-parallax";
+import { Player } from "video-react";
 import { useTranslations } from "next-intl";
 
 const HeroSection = () => {
@@ -22,13 +21,14 @@ const HeroSection = () => {
           >
             <SwiperSlide>
               <div className="masthead__bg bg-dark-3">
-                <Parallax
-                  strength={300}
-                  bgImage="/img/masthead/9/bg.png"
-                  bgImageAlt="amazing place"
-                  bgClassName="object-fit-cover"
-                  className="h-100"
-                ></Parallax>
+                <Player
+                  playsInline
+                  autoPlay
+                  muted
+                  loop
+                  src="/videos/herovideo.mp4"
+                  className="object-fit-cover h-100"
+                />
               </div>
               {/* End .masthead__bg */}
 

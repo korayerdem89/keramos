@@ -35,7 +35,8 @@
     "react-tabs": "^6.0.2",
     "sass": "^1.68.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^8.4.7"
+    "swiper": "^8.4.7",
+    "video-react": "^0.16.0"
   },
   "trustedDependencies": [
     "core-js",
