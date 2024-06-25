@@ -5,7 +5,6 @@ import Hero9 from "@/components/hero/hero-9";
 import TopHeader from "@/components/header/header-9/top-header";
 import Blog4 from "@/components/blog/Blog4";
 import Testimonial from "@/components/home/home-9/Testimonial";
-import PopularDestinations from "@/components/home/home-9/PoularDestinations";
 import Cruise2 from "@/components/cruise/Cruise2";
 import Link from "next/link";
 import AboutIntro from "@/components/home/home-9/AboutIntro";
@@ -14,8 +13,8 @@ import Cruise3 from "@/components/cruise/Cruise3";
 import SearchBoxContent from "@/components/hero/hero-9/SearchBoxContent";
 
 export const metadata = {
-  title: "Home-9 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Keramos Sailing",
+  description: "Cruises",
 };
 
 const home = () => {
@@ -26,53 +25,10 @@ const home = () => {
       <TopHeader />
       {/* End Header top Banner */}
 
-      <div
-        className="offcanvas offcanvas-top vh-100"
-        tabIndex={-1}
-        id="offcanvasTop2"
-        aria-labelledby="offcanvasTopLabel"
-        style={{ zIndex: 1200 }}
-      >
-        <div className="offcanvas-header position-absolute top-0 end-0">
-          <button
-            type="button"
-            className="btn-close text-reset "
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          />
-        </div>
-        {/* End header */}
-        <SearchBoxContent />
-      </div>
-      {/* End searchBar Offcanvas Popup */}
-
       <Header9 />
       {/* End Header 9 */}
 
       <Hero9 />
-      {/* End Hero 9 */}
-
-      <section className="layout-pt-lg layout-pb-md relative" id="secondSection">
-        <div className="container">
-          <div className="row y-gap-20 justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Popular Destinations</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-              </div>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row x-gap-10 y-gap-10 pt-40 sm:pt-20 item_gap-x10">
-            <PopularDestinations />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
       {/* End Hero 9 */}
 
       <section className="layout-pt-md layout-pb-lg">

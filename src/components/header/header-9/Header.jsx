@@ -49,16 +49,6 @@ const Header1 = () => {
                 </div>
                 {/* End header-menu */}
 
-                <div className="d-flex items-center ml-24 is-menu-opened-hide md:d-none">
-                  <button
-                    className="text-26 xl:text-20 text-white icon-search"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasTop2"
-                    aria-controls="offcanvasTop2"
-                  ></button>
-                </div>
-                {/* End Search Icon */}
-
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-20 text-white">
                   <div>
