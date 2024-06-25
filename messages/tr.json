@@ -49,5 +49,12 @@
     "perfectlocationdesc": "Ege'nin müthiş koylarında benzersiz bir deneyim",
     "customercare": "7/24 Müşteri Desteği",
     "customercaredesc": "Bize her an ulaşabilirsiniz"
+  },
+  "Footer": {
+    "phone": "Telefon",
+    "email": "Email",
+    "socials": "Sosyal Medya Hesaplarımız",
+    "our": "Bize Dair",
+    "support": "Destek"
   }
 }

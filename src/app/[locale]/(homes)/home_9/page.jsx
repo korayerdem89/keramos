@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import Footer7 from "@/components/footer/footer-7";
+import Footer8 from "@/components/footer/footer-8";
 import Header9 from "@/components/header/header-9";
 import Hero9 from "@/components/hero/hero-9";
 import TopHeader from "@/components/header/header-9/top-header";
@@ -114,7 +114,7 @@ const home = () => {
       </section>
       {/* End testimonial section */}
 
-      <Footer7 />
+      <Footer8 />
       {/* End Footer Section */}
     </>
   );
