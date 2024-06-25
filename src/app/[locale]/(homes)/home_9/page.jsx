@@ -99,29 +99,6 @@ const home = () => {
       </section>
       {/* Why Choose  Sections */}
 
-      <section className="layout-pt-md layout-pb-lg">
-        <div className="container">
-          <div className="row y-gap-20 justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Recommended Cruise</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
-              </div>
-            </div>
-            {/* End .col-auto */}
-          </div>
-          {/* End .row */}
-
-          <div className="pt-40 sm:pt-20 item_gap-x30">
-            <Cruise2 />
-          </div>
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End Cruise Sections */}
-
       <section className="section-bg layout-pt-lg layout-pb-lg bg-light-2">
         <div className="section-bg__item col-12">
           <img src="/img/backgrounds/11.png" alt="image" />
@@ -142,26 +119,6 @@ const home = () => {
         {/* End .contaienr */}
       </section>
       {/* End testimonial section */}
-
-      <section className="layout-pt-lg layout-pb-lg">
-        <div className="container">
-          <div className="row justify-center text-center">
-            <div className="col-auto">
-              <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Get inspiration for your next trip</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames</p>
-              </div>
-            </div>
-          </div>
-          {/* End .row  */}
-          <div className="row y-gap-30 pt-40">
-            <Blog4 />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End blog Section */}
 
       <Footer7 />
       {/* End Footer Section */}
