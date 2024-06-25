@@ -33,5 +33,21 @@
     "title": "Keramos ile konforlu bir yolculuğun keyfini çıkarın",
     "descriptions": "Keramos Sailing, Ege ve Akdeniz’in büyüleyici koylarında unutulmaz yelkenli turlar sunar. Deneyimli kaptanlarımızla açılacağınız bu serüvende, kristal sularında yüzme ve bölgenin doğal güzelliklerini keşfetme fırsatı bulacaksınız.",
     "more": "Daha Fazla"
+  },
+  "Home": {
+    "cruisestitle": "Yelkenli Turlarımız",
+    "cruisesdescriptions": "Denizlerin Ötesine Yelken Açın",
+    "more": "Daha Fazla",
+    "whychoosetitle": "Bizimle yolculuk Edin",
+    "whychoosetitle2": "Bizi seçmeniz için birçok neden var",
+    "whychoosedescriptions": "Keramos Sailing'i tercih etmek için birçok sebep var! Her detayı özenle düşünülmüş tur programlarımız, bölgenin en tecrübeli kaptanları tarafından yönetilmektedir.",
+    "bestprice": "En İyi Fiyat Garantisi",
+    "bestpricedesc": "Sizin için en uygun fiyatlar",
+    "easybooking": "Kolay rezervasyon",
+    "easybookingdesc": "İletişim kanallarımızla anında rezervasyon yapın",
+    "perfectlocation": "En İyi Lokasyonlar",
+    "perfectlocationdesc": "Ege'nin müthiş koylarında benzersiz bir deneyim",
+    "customercare": "7/24 Müşteri Desteği",
+    "customercaredesc": "Bize her an ulaşabilirsiniz"
   }
 }

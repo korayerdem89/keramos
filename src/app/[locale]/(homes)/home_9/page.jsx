@@ -3,9 +3,7 @@ import Footer7 from "@/components/footer/footer-7";
 import Header9 from "@/components/header/header-9";
 import Hero9 from "@/components/hero/hero-9";
 import TopHeader from "@/components/header/header-9/top-header";
-import Blog4 from "@/components/blog/Blog4";
 import Testimonial from "@/components/home/home-9/Testimonial";
-import Cruise2 from "@/components/cruise/Cruise2";
 import Link from "next/link";
 import AboutIntro from "@/components/home/home-9/AboutIntro";
 import WhyChoose from "@/components/home/home-9/WhyChoose";
@@ -18,7 +16,7 @@ export const metadata = {
 };
 
 const home = () => {
-  const t = useTranslations("Cruises");
+  const t = useTranslations("Home");
   return (
     <>
       {/* End Page Title */}
@@ -37,8 +35,8 @@ const home = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">{t("title")}</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">{t("descriptions")}</p>
+                <h2 className="sectionTitle__title">{t("cruisestitle")}</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">{t("cruisesdescriptions")}</p>
               </div>
             </div>
             {/* End .col */}
@@ -71,16 +69,12 @@ const home = () => {
         <div className="container">
           <div className="row y-gap-30">
             <div className="col-xl-4 col-lg-5">
-              <h2 className="text-30 fw-600">Why Choose Us</h2>
-              <p className="mt-5">These popular destinations have a lot to offer</p>
-              <p className="text-dark-1 mt-40 sm:mt-20">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur.
-              </p>
+              <h2 className="text-30 fw-600">{t("whychoosetitle")}</h2>
+              <p className="mt-5">{t("whychoosetitle2")}</p>
+              <p className="text-dark-1 mt-40 sm:mt-20">{t("whychoosedescriptions")}</p>
               <div className="d-inline-block mt-40 sm:mt-20">
                 <a href="#" className="button -md -blue-1 bg-yellow-1 text-dark-1">
-                  Learn More <div className="icon-arrow-top-right ml-15" />
+                  {t("more")} <div className="icon-arrow-top-right ml-15" />
                 </a>
               </div>
             </div>
