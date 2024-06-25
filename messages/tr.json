@@ -23,5 +23,10 @@
     "faqs": "SSS",
     "blog": "Blog",
     "contact": "İletişim"
+  },
+  "Cruises": {
+    "title": "Yelkenli Turlarımız",
+    "descriptions": "Denizlerin Ötesine Yelken Açın",
+    "more": "Daha Fazla"
   }
 }

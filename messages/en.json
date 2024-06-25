@@ -23,5 +23,9 @@
     "faqs": "FAQS",
     "blog": "Blog",
     "contact": "Contact"
+  },
+  "Cruises": {
+    "title": "Our Sailing Tours",
+    "descriptions": "Sail Beyond the Seas"
   }
 }

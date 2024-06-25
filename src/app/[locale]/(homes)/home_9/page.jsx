@@ -10,7 +10,7 @@ import Link from "next/link";
 import AboutIntro from "@/components/home/home-9/AboutIntro";
 import WhyChoose from "@/components/home/home-9/WhyChoose";
 import Cruise3 from "@/components/cruise/Cruise3";
-import SearchBoxContent from "@/components/hero/hero-9/SearchBoxContent";
+import { useTranslations } from "next-intl";
 
 export const metadata = {
   title: "Keramos Sailing",
@@ -18,6 +18,7 @@ export const metadata = {
 };
 
 const home = () => {
+  const t = useTranslations("Cruises");
   return (
     <>
       {/* End Page Title */}
@@ -36,10 +37,8 @@ const home = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Featured Cruise Deals</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames ac ante ipsum
-                </p>
+                <h2 className="sectionTitle__title">{t("title")}</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">{t("descriptions")}</p>
               </div>
             </div>
             {/* End .col */}
@@ -49,7 +48,7 @@ const home = () => {
                 href="/cruise/cruise-list-v2"
                 className="button -md -blue-1 bg-blue-1-05 text-blue-1"
               >
-                More <div className="icon-arrow-top-right ml-15" />
+                {t("more")} <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
             {/* End .col */}
