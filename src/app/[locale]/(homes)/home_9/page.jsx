@@ -95,7 +95,7 @@ const home = () => {
 
       <section className="section-bg layout-pt-lg layout-pb-lg bg-light-2">
         <div className="section-bg__item col-12">
-          <img src="/img/backgrounds/11.png" alt="image" />
+          <img src="/img/testimonials/testimonialbg.webp" alt="image" />
         </div>
         {/* End section bg */}
 
