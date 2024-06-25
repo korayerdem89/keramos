@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -27,16 +26,13 @@ const Header1 = () => {
   return (
     <>
       {" "}
-      <header
-        className={`header mt-40  ${navbar ? "is-sticky bg-dark-1" : ""}`}
-      >
+      <header className={`header mt-40  ${navbar ? "is-sticky bg-dark-1" : ""}`}>
         <div className="header__container container">
           <div className="row justify-between items-center">
             <div className="col-auto">
               <div className="d-flex items-center">
                 <Link href="/" className="header-logo mr-50">
-                  <img src="/img/general/logo-light.svg" alt="logo icon" />
-                  <img src="/img/general/logo-dark.svg" alt="logo icon" />
+                  <img src="/img/general/logo.png" alt="logo icon" />
                 </Link>
                 {/* End logo */}
               </div>
