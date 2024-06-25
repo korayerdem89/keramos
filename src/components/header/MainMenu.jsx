@@ -1,24 +1,17 @@
 import Link from "next/link";
 
-import {
-  homeItems,
-  blogItems,
-  pageItems,
-  dashboardItems,
-} from "../../data/mainMenuData";
-import CategoriesMegaMenu from "./CategoriesMegaMenu";
-import {
-  isActiveLink,
-  isActiveParentChaild,
-} from "@/utils/linkActiveChecker";
+import { homeItems } from "../../data/mainMenuData";
+
+import { isActiveParentChaild } from "@/utils/linkActiveChecker";
+import { useTranslations } from "next-intl";
 
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const MainMenu = ({ style = "" }) => {
   const pathname = usePathname();
-  const [isActiveParent, setIsActiveParent] = useState(false)
 
+  const t = useTranslations("Header");
   return (
     <nav className="menu js-navList">
       <ul className={`menu__nav ${style} -is-active`}>
@@ -27,24 +20,21 @@ const MainMenu = ({ style = "" }) => {
             isActiveParentChaild(homeItems, pathname) ? "current" : ""
           } menu-item-has-children`}
         >
-            <Link href='/'>Home</Link>
+          <Link href="/">{t("home")}</Link>
         </li>
         {/* End home page menu */}
 
-
-
         <li className={pathname === "/destinations" ? "current" : ""}>
-          <Link href="/destinations">Destinations</Link>
+          <Link href="/destinations">{t("destinations")}</Link>
         </li>
         {/* End Destinatinos single menu */}
 
-   <Link href='/about'>About Us</Link>
-   <Link href='/help-center'>FAQS</Link>
-    <Link href='/blog-list-v1'>Blog</Link>
- 
+        <Link href="/about">{t("about")}</Link>
+        <Link href="/help-center">{t("faqs")}</Link>
+        <Link href="/blog-list-v1">{t("blog")}</Link>
 
         <li className={pathname === "/contact" ? "current" : ""}>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">{t("about")}</Link>
         </li>
       </ul>
     </nav>
