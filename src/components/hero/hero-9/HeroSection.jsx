@@ -34,21 +34,22 @@ const HeroSection = () => {
 
               <div className="container">
                 <div className="row justify-center">
-                  <div className="col-xl-9">
+                  <div className="col-xl-19">
                     <div className="text-center">
-                      <div
-                        className="text-white fw-500 uppercase mb-10"
-                        data-aos="fade-up"
-                        data-aos-delay="100"
-                      >
-                        {t("title2")}
-                      </div>
-                      <h1
-                        className="text-80 lg:text-60 sm:text-40 text-white"
+                      <h2
+                        className="text-30 lg:text-20 fw-300 sm:text-10 text-white"
                         data-aos="fade-up"
                         data-aos-delay="300"
                       >
                         {t("title2")}
+                      </h2>
+
+                      <h1
+                        className="text-60 lg:text-40 sm:text-20 text-white"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                      >
+                        {t("title3")}
                       </h1>
                     </div>
                   </div>
