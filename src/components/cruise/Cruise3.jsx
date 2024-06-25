@@ -68,30 +68,7 @@ const Cruise3 = () => {
                       </div>
                     </div>
                     {/* End cartImage */}
-
-                    <div className="cardImage__wishlist">
-                      <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                        <i className="icon-heart text-12" />
-                      </button>
-                    </div>
-
-                    <div className="cardImage__leftBadge">
-                      <div
-                        className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase  ${
-                          isTextMatched(item?.tag, "best seller") ? "bg-blue-1 text-white" : ""
-                        }`}
-                      >
-                        {item?.tag}
-                      </div>
-                    </div>
                   </div>
-
-                  <div className="cardImage__wishlist">
-                    <button className="button -blue-1 bg-white size-30 rounded-full shadow-2">
-                      <i className="icon-heart text-12" />
-                    </button>
-                  </div>
-
                   <div className="cardImage__leftBadge">
                     <div
                       className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase ${
