@@ -2,12 +2,16 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import MainMenu from "../MainMenu";
-import MobileMenu from "../MobileMenu";
 
+import MobileMenu from "../MobileMenu";
+import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
+import { homeItems } from "@/data/mainMenuData";
+
+import { isActiveParentChaild } from "@/utils/linkActiveChecker";
 const Header1 = () => {
   const [navbar, setNavbar] = useState(false);
-
+  const t = useTranslations("Header");
   const changeBackground = () => {
     if (window.scrollY >= 10) {
       setNavbar(true);
@@ -15,7 +19,7 @@ const Header1 = () => {
       setNavbar(false);
     }
   };
-
+  const pathname = usePathname();
   useEffect(() => {
     window.addEventListener("scroll", changeBackground);
     return () => {
@@ -44,7 +48,31 @@ const Header1 = () => {
               <div className="d-flex items-center">
                 <div className="header-menu">
                   <div className="header-menu__content">
-                    <MainMenu style="text-white" />
+                    <nav className="menu js-navList">
+                      <ul className={`menu__nav text-white -is-active`}>
+                        <li
+                          className={`${
+                            isActiveParentChaild(homeItems, pathname) ? "current" : ""
+                          } menu-item-has-children`}
+                        >
+                          <Link href="/">{t("home")}</Link>
+                        </li>
+                        {/* End home page menu */}
+
+                        <li className={pathname === "/destinations" ? "current" : ""}>
+                          <Link href="/tr/destinations">{t("destinations")}</Link>
+                        </li>
+                        {/* End Destinatinos single menu */}
+
+                        <Link href="/tr/about">{t("about")}</Link>
+                        <Link href="/tr/help-center">{t("faqs")}</Link>
+                        <Link href="/tr/blog-list-v1">{t("blog")}</Link>
+
+                        <li className={pathname === "/contact" ? "current" : ""}>
+                          <Link href="/contact">{t("about")}</Link>
+                        </li>
+                      </ul>
+                    </nav>
                   </div>
                 </div>
                 {/* End header-menu */}

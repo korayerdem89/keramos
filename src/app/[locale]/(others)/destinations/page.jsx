@@ -105,10 +105,7 @@ const Destinations = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+              <Link href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -137,10 +134,7 @@ const Destinations = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+              <Link href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -171,10 +165,7 @@ const Destinations = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+              <Link href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -196,9 +187,7 @@ const Destinations = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Featured Holiday Rentals
-                </h2>
+                <h2 className="sectionTitle__title">Featured Holiday Rentals</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   Interdum et malesuada fames ac ante ipsum
                 </p>
@@ -207,10 +196,7 @@ const Destinations = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+              <Link href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -241,10 +227,7 @@ const Destinations = () => {
             {/* End .col */}
 
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
+              <Link href="#" className="button -md -blue-1 bg-blue-1-05 text-blue-1">
                 More <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -266,12 +249,8 @@ const Destinations = () => {
           <div className="row justify-center text-center">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Get inspiration for your next trip
-                </h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">
-                  Interdum et malesuada fames
-                </p>
+                <h2 className="sectionTitle__title">Get inspiration for your next trip</h2>
+                <p className=" sectionTitle__text mt-5 sm:mt-0">Interdum et malesuada fames</p>
               </div>
             </div>
           </div>
@@ -306,10 +285,7 @@ const Destinations = () => {
 
           <div className="row justify-center mt-40">
             <div className="col-auto">
-              <Link
-                href="#"
-                className="button h-50 w-250 -outline-blue-1 text-blue-1"
-              >
+              <Link href="#" className="button h-50 w-250 -outline-blue-1 text-blue-1">
                 Explore more <div className="icon-arrow-top-right ml-15" />
               </Link>
             </div>
@@ -374,9 +350,7 @@ const Destinations = () => {
           <div className="row y-gap-20">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">
-                  Destinations near London
-                </h2>
+                <h2 className="sectionTitle__title">Destinations near London</h2>
                 <p className=" sectionTitle__text mt-5 sm:mt-0">
                   These popular destinations have a lot to offer
                 </p>
