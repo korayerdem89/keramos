@@ -47,7 +47,7 @@ const Header1 = () => {
                 <div className="header-menu">
                   <div className="header-menu__content">
                     <nav className="menu js-navList">
-                      <ul className={`menu__nav text-dark1 -is-active`}>
+                      <ul className={`menu__nav text-dark-3 -is-active`}>
                         <li
                           className={`${
                             isActiveParentChaild(homeItems, pathname) ? "current" : ""

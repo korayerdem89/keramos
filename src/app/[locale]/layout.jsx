@@ -18,7 +18,7 @@ if (typeof window !== "undefined") {
   require("bootstrap/dist/js/bootstrap");
 }
 
-export default function RootLayout({ children, params: { locale } }) {
+export default async function RootLayout({ children, params: { locale } }) {
   useEffect(() => {
     Aos.init({
       duration: 1200,
