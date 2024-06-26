@@ -89,9 +89,7 @@
 
   &.-type-2 {
     margin-top: 20px;
-    transition:
-      background-color 0.4s $easeOutQuart,
-      margin 0.1s $easeOutQuart;
+    transition: background-color 0.4s $easeOutQuart, margin 0.1s $easeOutQuart;
 
     @include media-below(xl) {
       margin-top: 0;
@@ -137,7 +135,7 @@
     }
 
     &.-header-5-sticky {
-      background-color: white !important;
+      background-color: red !important;
       box-shadow: 0px 10px 30px 0px #05103608;
 
       .header__buttons {

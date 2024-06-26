@@ -12,22 +12,8 @@ export const metadata = {
 const index = () => {
   return (
     <>
-      {/* End Page Title */}
-
-      <div className="header-margin"></div>
-      {/* header top margin */}
-
-      <DefaultHeader />
-      {/* End Header 1 */}
-
       <NotFound />
       {/* End 404 section */}
-
-      <CallToActions />
-      {/* End Call To Actions Section */}
-
-      <DefaultFooter />
-      {/* End Call To Actions Section */}
     </>
   );
 };
