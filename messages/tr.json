@@ -59,5 +59,9 @@
     "about": "Hakkmızda",
     "blog": "blog",
     "contact": "İletişim"
+  },
+  "Destinations": {
+    "bannertitle": "Rezervasyon Yap",
+    "bannerdesc": "Denizlerin Ötesine Yelken Açın"
   }
 }
