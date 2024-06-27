@@ -2,11 +2,12 @@ import dynamic from "next/dynamic";
 
 import DefaultHeader from "@/components/header/default-header";
 import DefaultFooter from "@/components/footer/default";
-
+import { NextIntlClientProvider, useMessages, useTranslations } from "next-intl";
+import pick from "lodash/pick";
 import Banner from "@/components/destinations/components/Banner";
 import CustomerInfo from "@/components/booking-page/CustomerInfo";
 import IntroTown from "@/components/destinations/components/IntroTown";
-import { useTranslations } from "next-intl";
+
 export const metadata = {
   title: "Destinations || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",
@@ -14,6 +15,8 @@ export const metadata = {
 
 const Destinations = () => {
   const t = useTranslations("Reservation");
+  const messages = useMessages();
+
   return (
     <>
       {/* End Page Title */}
@@ -37,14 +40,16 @@ const Destinations = () => {
             <IntroTown />
           </div>
           {/* End .row */}
-          <div className="row x-gap-40 items-center">
-            <CustomerInfo />
-            <div className="justify-end pt-30 justify-center d-flex">
-              <button className="button h-60 px-70 -dark-1 bg-blue-1 text-white">
-                Next <div className="icon-arrow-top-right ml-15" />
-              </button>
+          <NextIntlClientProvider
+            messages={
+              // … and provide the relevant messages
+              pick(messages, "Reservation")
+            }
+          >
+            <div className="row">
+              <CustomerInfo />
             </div>
-          </div>
+          </NextIntlClientProvider>
           {/* End stepper header part */}
 
           {/* End main content */}

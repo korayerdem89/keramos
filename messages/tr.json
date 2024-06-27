@@ -64,6 +64,12 @@
     "bannertitle": "Rezervasyon Yap",
     "bannerdesc": "Denizlerin Ötesine Yelken Açın",
     "title": "Tur Öncesi Bilmeniz Gerekenler",
-    "descriptions": "Akyaka'nın kristal sularında unutulmaz bir yelkenli tur deneyimi yaşamaya hazırlanırken aşağıdaki önerilere göz atın:\n\n1- Temel Eşyalar: Güneş kremi, şapka, güneş gözlüğü, yüzme kıyafetleri, yedek giysi ve havlu yanınıza alın. Su geçirmez çanta, elektronik eşyalarınız için idealdir.\n\n2- Hava Durumu: Tur öncesinde hava durumunu kontrol ederek, olası kötü hava koşullarına karşı hazırlıklı olun.\n\n3- Deniz Hastağına Karşı Önlem: Eğer deniz tutması yaşıyorsanız, tura başlamadan önce ilgili ilaçları almayı düşünün.\n\n4- Çevreye Saygı: Çevreyi koruyun, çöplerinizi uygun yerlere atın ve doğal yaşama saygılı davranın.\n\n5- Güvenlik Talimatları: Güvenlik için verilen talimatlara uyun ve acil durum prosedürlerini öğrenin.\n\nBu önerilerle donanımlı olarak, Akyaka'nın berrak sularında güvenli ve keyifli bir yelkenli tur geçirebilirsiniz."
+    "descriptions": "Akyaka'nın kristal sularında unutulmaz bir yelkenli tur deneyimi yaşamaya hazırlanırken aşağıdaki önerilere göz atın:\n\n1- Temel Eşyalar: Güneş kremi, şapka, güneş gözlüğü, yüzme kıyafetleri, yedek giysi ve havlu yanınıza alın. Su geçirmez çanta, elektronik eşyalarınız için idealdir.\n\n2- Hava Durumu: Tur öncesinde hava durumunu kontrol ederek, olası kötü hava koşullarına karşı hazırlıklı olun.\n\n3- Deniz Hastağına Karşı Önlem: Eğer deniz tutması yaşıyorsanız, tura başlamadan önce ilgili ilaçları almayı düşünün.\n\n4- Çevreye Saygı: Çevreyi koruyun, çöplerinizi uygun yerlere atın ve doğal yaşama saygılı davranın.\n\n5- Güvenlik Talimatları: Güvenlik için verilen talimatlara uyun ve acil durum prosedürlerini öğrenin.\n\nBu önerilerle donanımlı olarak, Akyaka'nın berrak sularında güvenli ve keyifli bir yelkenli tur geçirebilirsiniz.",
+    "formtitle": "Rezervasyon Yap",
+    "formfullname": "Ad Soyad",
+    "formphonenumber": "Telefon",
+    "formaddress": "Adres",
+    "formrequests": "Özel İstekleriniz",
+    "formsubmitbutton": "Rezervasyonu Onayla"
   }
 }
