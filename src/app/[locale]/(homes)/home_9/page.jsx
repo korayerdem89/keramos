@@ -40,16 +40,6 @@ const home = () => {
               </div>
             </div>
             {/* End .col */}
-
-            <div className="col-auto">
-              <Link
-                href="/cruise/cruise-list-v2"
-                className="button -md -blue-1 bg-blue-1-05 text-blue-1"
-              >
-                {t("more")} <div className="icon-arrow-top-right ml-15" />
-              </Link>
-            </div>
-            {/* End .col */}
           </div>
           {/* End .row */}
 

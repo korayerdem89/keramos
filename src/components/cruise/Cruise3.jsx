@@ -4,7 +4,6 @@ import CruisesList from "./CruisesList";
 import { useTranslations } from "next-intl";
 
 export default function Counter() {
-  const t = useTranslations("Cruises");
   // Receive messages provided in `i18n.ts` …
   const messages = useMessages();
 

@@ -4,43 +4,41 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination } from "swiper";
 import isTextMatched from "@/utils/isTextMatched";
-import { useTranslations } from "next-intl";
 
 const Cruise3 = () => {
-  const t = useTranslations("Cruise");
   const cruises = [
     {
       id: 1,
+      slideImg: ["/img/cruises/tour5.webp"],
+      title: "7-day Cruise",
+      ship: "Yelkenlinin Modeli Buraya gelecek",
+      delayAnimation: "100",
+    },
+    {
+      id: 2,
       slideImg: ["/img/cruises/tour1.webp"],
       title: "Sunset Cruise",
       ship: "Yelkenlinin Modeli Buraya gelecek",
       delayAnimation: "100",
     },
     {
-      id: 2,
+      id: 3,
       slideImg: ["/img/cruises/tour2.webp"],
       title: "Family Adventure Cruise",
       ship: "Yelkenlinin Modeli Buraya gelecek",
       delayAnimation: "100",
     },
     {
-      id: 3,
+      id: 4,
       slideImg: ["/img/cruises/tour3.webp"],
       title: "Afternoon Cruise",
       ship: "Yelkenlinin Modeli Buraya gelecek",
       delayAnimation: "100",
     },
     {
-      id: 4,
-      slideImg: ["/img/cruises/tour4.webp"],
-      title: "All Day Cruise",
-      ship: "Yelkenlinin Modeli Buraya gelecek",
-      delayAnimation: "100",
-    },
-    {
       id: 5,
-      slideImg: ["/img/cruises/tour5.webp"],
-      title: "Aquarium Cruise",
+      slideImg: ["/img/cruises/tour4.webp"],
+      title: "All-Day Cruise",
       ship: "Yelkenlinin Modeli Buraya gelecek",
       delayAnimation: "100",
     },
@@ -79,58 +77,55 @@ const Cruise3 = () => {
         {cruises.map((item) => (
           <SwiperSlide key={item.id}>
             <div key={item?.id} data-aos="fade" data-aos-delay={item?.delayAnimation}>
-              <Link href={`/cruise-single/${item.id}`} className="cruiseCard -type-1 rounded-4 ">
-                <div className="cruiseCard__image position-relative">
-                  <div className="carCard__image">
-                    <div className="cardImage ratio ratio-6:5">
-                      <div className="cardImage__content custom_inside-slider">
-                        <Swiper
-                          className="mySwiper"
-                          modules={[Pagination, Navigation]}
-                          pagination={{
-                            clickable: true,
-                          }}
-                          navigation={true}
-                        >
-                          {item?.slideImg?.map((slide, i) => (
-                            <SwiperSlide key={i}>
-                              <Image
-                                width={300}
-                                height={300}
-                                className="rounded-4 col-12 js-lazy"
-                                src={slide}
-                                alt="image"
-                              />
-                            </SwiperSlide>
-                          ))}
-                        </Swiper>
-                      </div>
-                    </div>
-                    {/* End cartImage */}
-                  </div>
-                  <div className="cardImage__leftBadge">
-                    <div
-                      className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase ${
-                        isTextMatched(item?.tag, "cruise only") ? "bg-dark-1 text-white" : ""
-                      } ${isTextMatched(item?.tag, "best seller") ? "bg-blue-1 text-white" : ""}  ${
-                        isTextMatched(item?.tag, "top rated") ? "bg-yellow-1 text-dark-1" : ""
-                      }`}
-                    >
-                      {item.tag}
+              <div className="cruiseCard__image position-relative">
+                <div className="carCard__image">
+                  <div className="cardImage ratio ratio-6:5">
+                    <div className="cardImage__content custom_inside-slider">
+                      <Swiper
+                        className="mySwiper"
+                        modules={[Pagination, Navigation]}
+                        pagination={{
+                          clickable: true,
+                        }}
+                        navigation={true}
+                      >
+                        {item?.slideImg?.map((slide, i) => (
+                          <SwiperSlide key={i}>
+                            <Image
+                              width={300}
+                              height={300}
+                              className="rounded-4 col-12 js-lazy"
+                              src={slide}
+                              alt="image"
+                            />
+                          </SwiperSlide>
+                        ))}
+                      </Swiper>
                     </div>
                   </div>
+                  {/* End cartImage */}
                 </div>
-                {/* End .tourCard__image */}
-
-                <div className="cruiseCard__content mt-10">
-                  <div className="text-14 lh-14 text-light-1 mb-5">{item?.ship}</div>
-                  <h4 className="cruiseCard__title text-dark-1 text-18 lh-16 fw-500">
-                    <span>{item?.title}</span>
-                  </h4>
-
-                  {/* End .row */}
+                <div className="cardImage__leftBadge">
+                  <div
+                    className={`py-5 px-15 rounded-right-4 text-12 lh-16 fw-500 uppercase ${
+                      isTextMatched(item?.tag, "cruise only") ? "bg-dark-1 text-white" : ""
+                    } ${isTextMatched(item?.tag, "best seller") ? "bg-blue-1 text-white" : ""}  ${
+                      isTextMatched(item?.tag, "top rated") ? "bg-yellow-1 text-dark-1" : ""
+                    }`}
+                  >
+                    {item.tag}
+                  </div>
                 </div>
-              </Link>
+              </div>
+
+              <div className="cruiseCard__content mt-10">
+                <div className="text-14 lh-14 text-light-1 mb-5">{item?.ship}</div>
+                <h4 className="cruiseCard__title text-dark-1 text-18 lh-16 fw-500">
+                  <span>{item?.title}</span>
+                </h4>
+
+                {/* End .row */}
+              </div>
             </div>
           </SwiperSlide>
         ))}
