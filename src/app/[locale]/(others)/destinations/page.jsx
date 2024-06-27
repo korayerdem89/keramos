@@ -6,13 +6,14 @@ import DefaultFooter from "@/components/footer/default";
 import Banner from "@/components/destinations/components/Banner";
 import CustomerInfo from "@/components/booking-page/CustomerInfo";
 import IntroTown from "@/components/destinations/components/IntroTown";
-
+import { useTranslations } from "next-intl";
 export const metadata = {
   title: "Destinations || GoTrip - Travel & Tour React NextJS Template",
   description: "GoTrip - Travel & Tour React NextJS Template",
 };
 
 const Destinations = () => {
+  const t = useTranslations("Reservation");
   return (
     <>
       {/* End Page Title */}
@@ -29,7 +30,7 @@ const Destinations = () => {
 
           <div className="row y-gap-20 pt-40">
             <div className="col-auto">
-              <h2>What to know before visiting London</h2>
+              <h2>{t("title")}</h2>
             </div>
             {/* End .col-auto */}
 

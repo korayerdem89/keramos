@@ -69,7 +69,7 @@ const Header1 = () => {
                         <Link href="/tr/blog-list-v1">{t("blog")}</Link>
 
                         <li className={pathname === "/contact" ? "current" : ""}>
-                          <Link href="/contact">{t("about")}</Link>
+                          <Link href="/contact">{t("contact")}</Link>
                         </li>
                       </ul>
                     </nav>

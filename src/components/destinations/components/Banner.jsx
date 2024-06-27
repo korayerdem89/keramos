@@ -1,12 +1,12 @@
 import { useTranslations } from "next-intl";
 
 const Banner = () => {
-  const t = useTranslations("Destinations");
+  const t = useTranslations("Reservation");
   return (
     <div className="col-12">
       <div className="relative d-flex">
         <img
-          src="/img/pages/destinations/1.png"
+          src="/img/destinations/banner.webp"
           alt="image"
           className="col-12 rounded-4"
           style={{ minHeight: " 300px" }}
