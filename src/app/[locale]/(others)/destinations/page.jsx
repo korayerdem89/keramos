@@ -21,7 +21,7 @@ const Destinations = () => {
       {/* header top margin */}
       <DefaultHeader />
       {/* End Header 1 */}
-      <section className="layout-pb-md ">
+      <section className="layout-pb-md  y-gap-30">
         <div className="container">
           <div className="row">
             <Banner />
@@ -37,11 +37,24 @@ const Destinations = () => {
             <IntroTown />
           </div>
           {/* End .row */}
+          <div className="row x-gap-40 items-center">
+            <CustomerInfo />
+            <div className="justify-end pt-30 justify-center d-flex">
+              <button className="button h-60 px-70 -dark-1 bg-blue-1 text-white">
+                Next <div className="icon-arrow-top-right ml-15" />
+              </button>
+            </div>
+          </div>
+          {/* End stepper header part */}
+
+          {/* End main content */}
+
+          {/* End next btn */}
         </div>
         {/* End .container */}
       </section>
       {/* End Top Banner,categorie,intro,weather, generic info section */}
-      <CustomerInfo />
+
       <DefaultFooter />
       {/* End Call To Actions Section */}
     </>
