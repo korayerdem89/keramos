@@ -74,5 +74,10 @@
     "formenddate": "Tur Bitiş Tarihi",
     "formsubmitbutton": "Rezervasyonu Onayla",
     "reservationsubmitted": "Rezervasyon talebiniz alındı, en kısa sürede sizinle iletişim kuracağız, teşekkürler!"
+  },
+  "About": {
+    "bannertitle": "Bize Dair",
+    "title": "Keramos Sailing Ekibini Tanıyın",
+    "ourteam": "Ekibimiz"
   }
 }

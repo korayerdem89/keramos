@@ -7,6 +7,7 @@ import pick from "lodash/pick";
 import Banner from "@/components/destinations/components/Banner";
 import CustomerInfo from "@/components/booking-page/CustomerInfo";
 import IntroTown from "@/components/destinations/components/IntroTown";
+import Footer8 from "@/components/footer/footer-8";
 
 export const metadata = {
   title: "Destinations || GoTrip - Travel & Tour React NextJS Template",
@@ -59,8 +60,7 @@ const Destinations = () => {
         {/* End .container */}
       </section>
       {/* End Top Banner,categorie,intro,weather, generic info section */}
-
-      <DefaultFooter />
+      <Footer8 />
       {/* End Call To Actions Section */}
     </>
   );

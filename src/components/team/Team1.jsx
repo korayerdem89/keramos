@@ -1,5 +1,4 @@
-
-'use client'
+"use client";
 
 import Image from "next/image";
 import Slider from "react-slick";
@@ -10,25 +9,25 @@ const Team1 = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1600,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 1400,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 2,
         },
       },
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
 
@@ -74,16 +73,12 @@ const Team1 = () => {
 
   return (
     <>
-      <Slider
-        {...settings}
-        nextArrow={<Arrow type="next" />}
-        prevArrow={<Arrow type="prev" />}
-      >
+      <Slider {...settings} nextArrow={<Arrow type="next" />} prevArrow={<Arrow type="prev" />}>
         {teamData.map((item) => (
           <div className="swiper-slide" key={item.id}>
             <Image
-              width={234}
-              height={300}
+              width={1200}
+              height={1538}
               src={item.img}
               alt="image"
               className="rounded-4 col-12"
@@ -91,6 +86,7 @@ const Team1 = () => {
             <div className="mt-10">
               <div className="text-18 lh-15 fw-500">{item.name}</div>
               <div className="text-14 lh-15">{item.designation}</div>
+              <div className="text-14 lh-15 pt-10">{item.desc}</div>
             </div>
           </div>
         ))}
