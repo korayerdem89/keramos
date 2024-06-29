@@ -44,7 +44,7 @@ const CustomerInfo = () => {
           <div className="row x-gap-20 y-gap-20 pt-20">
             <div className="col-12">
               <div className="form-input">
-                <input type="text" required />
+                <input type="text" name="fullName" required />
                 <label className="lh-1 text-16 text-light-1">{t("formfullname")}</label>
               </div>
             </div>
@@ -52,7 +52,7 @@ const CustomerInfo = () => {
 
             <div className="col-md-6">
               <div className="form-input">
-                <input type="email" required />
+                <input type="email" name="email" required />
                 <label className="lh-1 text-16 text-light-1">Email</label>
               </div>
             </div>
@@ -60,7 +60,7 @@ const CustomerInfo = () => {
 
             <div className="col-md-6">
               <div className="form-input">
-                <input type="tel" required />
+                <input type="tel" name="phoneNumber" required />
                 <label className="lh-1 text-16 text-light-1">{t("formphonenumber")}</label>
               </div>
             </div>
@@ -68,14 +68,14 @@ const CustomerInfo = () => {
 
             <div className="col-12">
               <div className="form-input">
-                <textarea required rows={4} defaultValue={""} />
+                <textarea required name="address" rows={4} defaultValue={""} />
                 <label className="lh-1 text-16 text-light-1">{t("formaddress")}</label>
               </div>
             </div>
 
             <div className="col-12">
               <div className="form-input">
-                <textarea rows={6} defaultValue={""} />
+                <textarea rows={6} name="requests" defaultValue={""} />
                 <label className="lh-1 text-16 text-light-1">{t("formrequests")}</label>
               </div>
             </div>
