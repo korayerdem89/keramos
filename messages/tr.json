@@ -65,11 +65,13 @@
     "bannerdesc": "Denizlerin Ötesine Yelken Açın",
     "title": "Turumuz Hakkında Detaylı Bilgi",
     "descriptions": "Keramos Sailing'in 7 günlük Akyaka çıkışlı Gökova Körfezi yelken turu, Türkiye'nin en güzel koylarında unutulmaz bir macera sunuyor.\n\n1. Gün: Akyaka'da başlangıç, geleneksel mimari ve yerel lezzetler.\n\n2. Gün: Akçapınar'da yelken ve SUP aktiviteleri.\n\n3. Gün: Ören'de antik Keramos kenti ziyareti, Tuzla veya Yediadalar'da mola.\n\n4. Gün: Börübet Koyu'nda yüzme ve doğa keşfi.\n\n5. Gün: Çanak Koyu'nda su aktiviteleri ve opsiyonel Kaunos antik kenti ziyareti.\n\n6. Gün: Boncuk Koyu'nda dalış, Karacasöğüt'te yerel kahvaltı ve veda yemeği.\n\n7. Gün: Sedir Adası (Kleopatra Plajı) ziyareti ve Akyaka'ya dönüş.\n\nBu tur, Gökova'nın doğal güzellikleri, tarihi ve kültürüyle tanışmanızı sağlarken, güvenli ve konforlu bir yelken deneyimi yaşamanıza olanak tanıyacak.",
-    "formtitle": "Rezervasyon Yap",
+    "formtitle": "Rezervasyon Talebi Gönder",
     "formfullname": "Ad Soyad",
     "formphonenumber": "Telefon",
     "formaddress": "Adres",
     "formrequests": "Özel İstekleriniz",
+    "formstartdate": "Başlangıç Tarihi",
+    "formenddate": "Bitiş Tarihi",
     "formsubmitbutton": "Rezervasyonu Onayla",
     "reservationsubmitted": "Rezervasyon talebiniz alındı, en kısa sürede sizinle iletişim kuracağız, teşekkürler!"
   }

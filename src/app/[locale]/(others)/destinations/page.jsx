@@ -24,7 +24,7 @@ const Destinations = () => {
       {/* header top margin */}
       <DefaultHeader />
       {/* End Header 1 */}
-      <section className="layout-pb-md  y-gap-30">
+      <section className="layout-pb-md  y-gap-30 pt-30">
         <div className="container">
           <div className="row">
             <Banner />

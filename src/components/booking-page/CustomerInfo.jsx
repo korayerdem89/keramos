@@ -1,11 +1,21 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const CustomerInfo = () => {
   const t = useTranslations("Reservation");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [startDate, setStartDate] = useState("");
+  const [endDate, setEndDate] = useState("");
+
+  useEffect(() => {
+    if (startDate) {
+      const start = new Date(startDate);
+      const end = new Date(start.getTime() + 6 * 24 * 60 * 60 * 1000); // 7 gün sonra (6 gün ekliyoruz çünkü başlangıç günü dahil)
+      setEndDate(end.toISOString().split("T")[0]);
+    }
+  }, [startDate]);
 
   async function onSubmit(event) {
     event.preventDefault();
@@ -13,7 +23,7 @@ const CustomerInfo = () => {
 
     const formData = new FormData(event.currentTarget);
     const formJson = Object.fromEntries(formData.entries());
-    console.log("form datas" + formJson);
+
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
@@ -48,7 +58,6 @@ const CustomerInfo = () => {
                 <label className="lh-1 text-16 text-light-1">{t("formfullname")}</label>
               </div>
             </div>
-            {/* End col-12 */}
 
             <div className="col-md-6">
               <div className="form-input">
@@ -56,7 +65,6 @@ const CustomerInfo = () => {
                 <label className="lh-1 text-16 text-light-1">Email</label>
               </div>
             </div>
-            {/* End col-12 */}
 
             <div className="col-md-6">
               <div className="form-input">
@@ -64,7 +72,27 @@ const CustomerInfo = () => {
                 <label className="lh-1 text-16 text-light-1">{t("formphonenumber")}</label>
               </div>
             </div>
-            {/* End col-12 */}
+
+            {/* Yeni eklenen tarih aralığı inputları */}
+            <div className="col-md-6">
+              <div className="form-input">
+                <input
+                  type="date"
+                  name="startDate"
+                  value={startDate}
+                  onChange={(e) => setStartDate(e.target.value)}
+                  required
+                />
+                <label className="lh-1 text-16 text-light-1">{t("formstartdate")}</label>
+              </div>
+            </div>
+
+            <div className="col-md-6">
+              <div className="form-input">
+                <input type="date" name="endDate" value={endDate} disabled />
+                <label className="lh-1 text-16 text-light-1">{t("formenddate")}</label>
+              </div>
+            </div>
 
             <div className="col-12">
               <div className="form-input">
@@ -79,9 +107,8 @@ const CustomerInfo = () => {
                 <label className="lh-1 text-16 text-light-1">{t("formrequests")}</label>
               </div>
             </div>
-            {/* End col-12 */}
           </div>
-          {/* End .row */}
+
           <div className="justify-end pt-30 justify-center d-flex">
             <button
               type="submit"
@@ -93,7 +120,6 @@ const CustomerInfo = () => {
           </div>
         </form>
       </div>
-      {/* End .col-xl-7 */}
     </div>
   );
 };
