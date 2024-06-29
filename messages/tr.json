@@ -70,8 +70,8 @@
     "formphonenumber": "Telefon",
     "formaddress": "Adres",
     "formrequests": "Özel İstekleriniz",
-    "formstartdate": "Başlangıç Tarihi",
-    "formenddate": "Bitiş Tarihi",
+    "formstartdate": "Tur Başlangıç Tarihi",
+    "formenddate": "Tur Bitiş Tarihi",
     "formsubmitbutton": "Rezervasyonu Onayla",
     "reservationsubmitted": "Rezervasyon talebiniz alındı, en kısa sürede sizinle iletişim kuracağız, teşekkürler!"
   }
