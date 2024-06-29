@@ -11,6 +11,7 @@
   "dependencies": {
     "@faker-js/faker": "^8.1.0",
     "@popperjs/core": "2.11.8",
+    "@react-email/components": "^0.0.19",
     "@reduxjs/toolkit": "^1.9.6",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
