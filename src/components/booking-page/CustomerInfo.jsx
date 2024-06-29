@@ -24,7 +24,7 @@ const CustomerInfo = () => {
       });
 
       if (response.ok) {
-        alert("Form submitted successfully!");
+        alert(`${t("reservationsubmitted")}`);
         event.target.reset();
       } else {
         alert("Failed to submit form. Please try again.");

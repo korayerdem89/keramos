@@ -70,6 +70,7 @@
     "formphonenumber": "Telefon",
     "formaddress": "Adres",
     "formrequests": "Özel İstekleriniz",
-    "formsubmitbutton": "Rezervasyonu Onayla"
+    "formsubmitbutton": "Rezervasyonu Onayla",
+    "reservationsubmitted": "Rezervasyon talebiniz alındı, en kısa sürede sizinle iletişim kuracağız, teşekkürler!"
   }
 }
