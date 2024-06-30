@@ -29,16 +29,16 @@ const HeroSection = () => {
                   muted
                   loop
                   src="/videos/herovideo.mp4"
-                  className="object-fit-cover h-100 "
+                  className="object-fit-cover h-100"
                 />
               </div>
               {/* End .masthead__bg */}
-              <div className="container ">
+              <div className="container pb-60">
                 <div className="row justify-center">
                   <div className="col-xl-19">
                     <div className="text-center">
                       <h2
-                        className="text-30 lg:text-20 fw-300 sm:text-10 text-white "
+                        className="text-30 lg:text-20 fw-300 sm:text-14 text-white "
                         data-aos="fade-up"
                         data-aos-delay="300"
                       >
@@ -74,18 +74,6 @@ const HeroSection = () => {
         </div>
         {/* End slider */}
 
-        <a href="#secondSection" className="masthead__scroll">
-          <div className="d-flex items-center">
-            <div className="text-white lh-15 text-right mr-10">
-              <div className="fw-500">Scroll Down</div>
-              <div className="text-15">to discover more</div>
-            </div>
-            <div className="-icon">
-              <div />
-              <div />
-            </div>
-          </div>
-        </a>
         {/* End scroll target section */}
       </section>
       {/* End section */}

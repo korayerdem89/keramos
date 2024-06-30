@@ -35,11 +35,6 @@ const MobileMenu = () => {
   return (
     <>
       <div className="pro-header d-flex align-items-center justify-between border-bottom-light">
-        <Link href="/">
-          <img src="/img/general/logo-dark.svg" alt="brand" />
-        </Link>
-        {/* End logo */}
-
         <div className="fix-icon" data-bs-dismiss="offcanvas" aria-label="Close">
           <i className="icon icon-close"></i>
         </div>

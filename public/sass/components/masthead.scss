@@ -18,6 +18,23 @@
     padding-bottom: 60px;
     height: auto;
   }
+  .video-player {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+      object-fit: cover !important;
+    }
+  }
 
   .masthead {
     &__bg {
