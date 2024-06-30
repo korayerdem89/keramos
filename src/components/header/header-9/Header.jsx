@@ -63,13 +63,13 @@ const Header1 = () => {
                           <Link href="/tr/destinations">{t("destinations")}</Link>
                         </li>
                         {/* End Destinatinos single menu */}
-                        <li className={pathname === "/contact" ? "current" : ""}>
+                        <li className={pathname === "/tr/about" ? "current" : ""}>
                           <Link href="/tr/about">{t("about")}</Link>
                         </li>
-                        <li className={pathname === "/contact" ? "current" : ""}>
+                        <li className={pathname === "/tr/help-center" ? "current" : ""}>
                           <Link href="/tr/help-center">{t("faqs")}</Link>
                         </li>
-                        <li className={pathname === "/contact" ? "current" : ""}>
+                        <li className={pathname === "/tr/blog-list-v1" ? "current" : ""}>
                           <Link href="/tr/blog-list-v1">{t("blog")}</Link>
                         </li>
                         <li className={pathname === "/contact" ? "current" : ""}>
