@@ -22,12 +22,14 @@ const HeroSection = () => {
             <SwiperSlide>
               <div className="masthead__bg">
                 <Player
+                  fluid={true}
+                  controls={false}
                   playsInline
                   autoPlay
                   muted
                   loop
                   src="/videos/herovideo.mp4"
-                  className="object-fit-contain h-100"
+                  className="object-fit-cover h-100 "
                 />
               </div>
               {/* End .masthead__bg */}
