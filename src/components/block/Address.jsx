@@ -1,31 +1,32 @@
+import { useTranslations } from "next-intl";
+
 const Address = () => {
+  const t = useTranslations("Contact");
   const addressContent = [
     {
       id: 1,
       colClass: "col-lg-3",
-      title: "Address",
-      content: (
-        <>328 Queensberry Street, North Melbourne VIC 3051, Australia.</>
-      ),
+      title: t("address"),
+      content: <>Akyaka, Muğla</>,
     },
     {
       id: 2,
       colClass: "col-auto",
-      title: "Toll Free Customer Care",
+      title: t("phonenumber"),
       content: (
         <>
-          <a href="tel:+4733378901">+47 333 78 901</a>
+          <a href="tel:+4733378901">+90 123 456 789</a>
         </>
       ),
     },
     {
       id: 3,
       colClass: "col-auto",
-      title: "Need live support?",
+      title: t("email"),
       content: (
         <>
           {" "}
-          <a href="mailto:i@gotrip.com">hi@gotrip.com</a>
+          <a href="mailto:info@keramosailing.com">info@keramosailing.com</a>
         </>
       ),
     },

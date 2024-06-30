@@ -83,7 +83,7 @@
   },
   "FAQ": {
     "title": "Sıkça Sorulan Sorular",
-    "faq1": "Hangi turlar mevcut",
+    "faq1": "Hangi turlar mevcut?",
     "answer1": "2024 yılı için yalnızca Gökova Körfezi hedeflenmektir.",
     "faq2": "Yanımızda yiyecek, içecek getirebilir miyiz?",
     "answer2": "Elbette!",
@@ -95,5 +95,12 @@
     "answer5": "Amacımız, tüm yolculara mümkün olan en konforlu seyir deneyimini sunmaktır. Böyle bir durum meydana gelirse, mürettebatımız size yardımcı olmaya hazırdır.",
     "faq6": "Turu iptal etme şartları nelerdir?",
     "answer6": "Hava durumu, dalgalı denizler veya mekanik zorluklar nedeniyle bir seferin iptal edilmesine kaptan karar verir. İptalin 24 saat önceden bildirilmesi durumunda müşterilere tam geri ödeme yapılacaktır. Ayrıca hava durumu veya diğer beklenmedik durumlar nedeniyle işletmeci iptali durumunda da müşterilere tam geri ödeme yapılacaktır. İptal etmek veya bir iptal hakkında bilgi almak için telefonla bizimle iletişime geçin. Gelmeyen müşterilerden tam ücret alınacaktır."
+  },
+  "Contact": {
+    "title": "İletişim Bilgilerimiz",
+    "address": "Adres",
+    "phonenumber": "Telefon Numaramız",
+    "email": "Email",
+    "socials": "Sosyal Medya Hesaplarımız"
   }
 }
