@@ -8,8 +8,8 @@ const LanguageMegaMenu = ({ textClass }) => {
   const handleCurrency = () => setClick((prevState) => !prevState);
 
   const languageContent = [
-    { id: 1, language: "English", country: "English" },
-    { id: 2, language: "Türkçe", country: "Turkiye" },
+    { id: 1, language: "Türkçe", country: "Turkiye" },
+    { id: 2, language: "English", country: "English" },
     { id: 3, language: "Español", country: "España" },
     { id: 4, language: "Français", country: "France" },
   ];
