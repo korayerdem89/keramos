@@ -18,7 +18,7 @@
   },
   "Header": {
     "home": "Anasayfa",
-    "destinations": "Turlar",
+    "destinations": "Rezervasyon Yap",
     "about": "Hakkmızda",
     "faqs": "SSS",
     "blog": "Blog",
@@ -57,7 +57,7 @@
     "our": "Bize Dair",
     "support": "Destek",
     "about": "Hakkmızda",
-    "blog": "blog",
+    "blog": "Blog",
     "contact": "İletişim"
   },
   "Reservation": {
