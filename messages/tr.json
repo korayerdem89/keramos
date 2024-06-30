@@ -79,5 +79,20 @@
     "bannertitle": "Bizimle Denizin Hikayesini Keşfedin",
     "title": "Keramos Sailing Ekibini Tanıyın",
     "ourteam": "Ekibimiz"
+  },
+  "FAQ": {
+    "title": "Sıkça Sorulan Sorular",
+    "faq1": "Hangi turlar mevcut",
+    "answer1": "2024 yılı için yalnızca Gökova Körfezi hedeflenmektir.",
+    "faq2": "Yanımızda yiyecek, içecek getirebilir miyiz?",
+    "answer2": "Elbette!",
+    "faq3": "Çocuklar da tura katılabiliyor mu?",
+    "answer3": "Evet! Yanlarında bir yetişkin bulunan çocuklar turlara katılabilir",
+    "faq4": "Can  yeleği giyecek miyiz?",
+    "answer4": "12 yaşın altındaki çocuklara zorunluluktan ötürü can yeleği giydiriyoruz. Diğer yaş grupları için de koşullara göre can yeleği sağlıyoruz.",
+    "faq5": "Deniz tutması yaşanırsa?",
+    "answer5": "Amacımız, tüm yolculara mümkün olan en konforlu seyir deneyimini sunmaktır. Böyle bir durum meydana gelirse, mürettebatımız size yardımcı olmaya hazırdır.",
+    "faq6": "Turu iptal etme şartları nelerdir?",
+    "answer6": "Hava durumu, dalgalı denizler veya mekanik zorluklar nedeniyle bir seferin iptal edilmesine kaptan karar verir. İptalin 24 saat önceden bildirilmesi durumunda müşterilere tam geri ödeme yapılacaktır. Ayrıca hava durumu veya diğer beklenmedik durumlar nedeniyle işletmeci iptali durumunda da müşterilere tam geri ödeme yapılacaktır. İptal etmek veya bir iptal hakkında bilgi almak için telefonla bizimle iletişime geçin. Gelmeyen müşterilerden tam ücret alınacaktır."
   }
 }
