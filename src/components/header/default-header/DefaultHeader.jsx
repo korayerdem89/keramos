@@ -57,17 +57,21 @@ const Header1 = () => {
                         </li>
                         {/* End home page menu */}
 
-                        <li className={pathname === "/destinations" ? "current" : ""}>
+                        <li className={pathname === "/tr/destinations" ? "current" : ""}>
                           <Link href="/tr/destinations">{t("destinations")}</Link>
                         </li>
                         {/* End Destinatinos single menu */}
-
-                        <Link href="/tr/about">{t("about")}</Link>
-                        <Link href="/tr/help-center">{t("faqs")}</Link>
-                        <Link href="/tr/blog-list-v1">{t("blog")}</Link>
-
-                        <li className={pathname === "/contact" ? "current" : ""}>
-                          <Link href="/contact">{t("about")}</Link>
+                        <li className={pathname === "/tr/about" ? "current" : ""}>
+                          <Link href="/tr/about">{t("about")}</Link>
+                        </li>
+                        <li className={pathname === "/tr/help-center" ? "current" : ""}>
+                          <Link href="/tr/help-center">{t("faqs")}</Link>
+                        </li>
+                        <li className={pathname === "/tr/blog-list-v1" ? "current" : ""}>
+                          <Link href="/tr/blog-list-v1">{t("blog")}</Link>
+                        </li>
+                        <li className={pathname === "/tr/contact" ? "current" : ""}>
+                          <Link href="/tr/contact">{t("about")}</Link>
                         </li>
                       </ul>
                     </nav>
