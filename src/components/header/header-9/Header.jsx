@@ -63,11 +63,15 @@ const Header1 = () => {
                           <Link href="/tr/destinations">{t("destinations")}</Link>
                         </li>
                         {/* End Destinatinos single menu */}
-
-                        <Link href="/tr/about">{t("about")}</Link>
-                        <Link href="/tr/help-center">{t("faqs")}</Link>
-                        <Link href="/tr/blog-list-v1">{t("blog")}</Link>
-
+                        <li className={pathname === "/contact" ? "current" : ""}>
+                          <Link href="/tr/about">{t("about")}</Link>
+                        </li>
+                        <li className={pathname === "/contact" ? "current" : ""}>
+                          <Link href="/tr/help-center">{t("faqs")}</Link>
+                        </li>
+                        <li className={pathname === "/contact" ? "current" : ""}>
+                          <Link href="/tr/blog-list-v1">{t("blog")}</Link>
+                        </li>
                         <li className={pathname === "/contact" ? "current" : ""}>
                           <Link href="/contact">{t("contact")}</Link>
                         </li>
@@ -79,12 +83,6 @@ const Header1 = () => {
 
                 {/* Start mobile menu icon */}
                 <div className="d-none xl:d-flex x-gap-20 items-center pl-20 text-white">
-                  <div>
-                    <Link
-                      href="/login"
-                      className="d-flex items-center icon-user text-inherit text-22"
-                    />
-                  </div>
                   <div>
                     <button
                       className="d-flex items-center icon-menu text-inherit text-20"
