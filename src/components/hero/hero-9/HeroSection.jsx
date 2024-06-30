@@ -28,7 +28,7 @@ const HeroSection = () => {
                   autoPlay
                   muted
                   loop
-                  src="/videos/herovideo.mp4"
+                  src="/img/video/herovideo.mp4"
                   className="object-fit-cover h-100"
                 />
               </div>
