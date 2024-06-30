@@ -4,7 +4,6 @@ import Header9 from "@/components/header/header-9";
 import Hero9 from "@/components/hero/hero-9";
 import TopHeader from "@/components/header/header-9/top-header";
 import Testimonial from "@/components/home/home-9/Testimonial";
-import Link from "next/link";
 import AboutIntro from "@/components/home/home-9/AboutIntro";
 import WhyChoose from "@/components/home/home-9/WhyChoose";
 import Cruise3 from "@/components/cruise/Cruise3";

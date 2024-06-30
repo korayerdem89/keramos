@@ -2,7 +2,7 @@ import React from "react";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultHeader from "@/components/header/default-header";
 import LocationTopBar from "@/components/common/LocationTopBar";
-import DefaultFooter from "@/components/footer/default";
+import Footer8 from "@/components/footer/footer-8";
 import Blog1 from "@/components/blog/Blog1";
 
 export const metadata = {
@@ -18,9 +18,6 @@ const BlogListV1 = () => {
 
       <DefaultHeader />
       {/* End Header 1 */}
-
-      <LocationTopBar />
-      {/* End location top bar section */}
 
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
@@ -41,7 +38,7 @@ const BlogListV1 = () => {
       <CallToActions />
       {/* End Call To Actions Section */}
 
-      <DefaultFooter />
+      <Footer8 />
       {/* End Call To Actions Section */}
     </>
   );
