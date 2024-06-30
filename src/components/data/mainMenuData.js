@@ -384,20 +384,12 @@ export const categorieMegaMenuItems = [
                 name: "Cruise List v1",
                 routePath: "/cruise-list-v1",
               },
-              {
-                name: "Cruise List v2",
-                routePath: "/cruise-list-v2",
-              },
             ],
           },
           {
             id: 2,
             title: "Cruise Pages",
             menuList: [
-              {
-                name: "Cruise Map",
-                routePath: "/cruise-list-v3",
-              },
               {
                 name: "Cruise Single",
                 routePath: "/cruise-single/3",
@@ -638,24 +630,6 @@ export const categorieMobileItems = [
           {
             name: "Cruise List v1",
             routePath: "/cruise-list-v1",
-          },
-          {
-            name: "Cruise List v2",
-            routePath: "/cruise-list-v2",
-          },
-        ],
-      },
-      {
-        id: 2,
-        title: "Cruise Pages",
-        menuList: [
-          {
-            name: "Cruise Map",
-            routePath: "/cruise-list-v3",
-          },
-          {
-            name: "Cruise Single",
-            routePath: "/cruise-single/3",
           },
         ],
       },

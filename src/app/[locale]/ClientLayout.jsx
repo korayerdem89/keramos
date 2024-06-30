@@ -3,8 +3,6 @@
 import Aos from "aos";
 import { useEffect } from "react";
 import SrollTop from "@/components/common/ScrollTop";
-import { Provider } from "react-redux";
-import { store } from "@/store/store";
 import { NextIntlClientProvider } from "next-intl";
 
 import "swiper/css";
@@ -42,10 +40,8 @@ export default function ClientLayout({ children, locale, messages }) {
       <body>
         <main>
           <NextIntlClientProvider locale={locale} messages={messages}>
-            <Provider store={store}>
-              {children}
-              <SrollTop />
-            </Provider>
+            {children}
+            <SrollTop />
           </NextIntlClientProvider>
         </main>
       </body>

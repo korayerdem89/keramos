@@ -1,5 +1,3 @@
-import Link from "next/link";
-import CurrenctyMegaMenu from "../../CurrenctyMegaMenu";
 import ContactInfo from "./ContactInfo";
 import LanguageMegaMenu from "../../LanguageMegaMenu";
 
