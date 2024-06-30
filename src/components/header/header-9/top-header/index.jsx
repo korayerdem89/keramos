@@ -19,7 +19,6 @@ const HeaderBanner = () => {
                   <LanguageMegaMenu textClass="text-white" />
                   {/* End Megamenu for Language */}
                 </div>
-                {/* End .row */}
               </div>
               {/* End language currency Selector */}
 
