@@ -84,8 +84,8 @@ const Team1 = () => {
               className="rounded-4 col-12"
             />
             <div className="mt-10">
-              <div className="text-18 lh-15 fw-500">{item.name}</div>
-              <div className="text-14 lh-15">{item.designation}</div>
+              <div className="text-24 lh-15 fw-600">{item.name}</div>
+              <div className="text-16 fw-500 lh-15">{item.designation}</div>
               <div className="text-14 lh-15 pt-10">{item.desc}</div>
             </div>
           </div>

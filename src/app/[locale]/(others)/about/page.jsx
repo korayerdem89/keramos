@@ -30,8 +30,8 @@ const About = () => {
 
         <div className="container">
           <div className="row justify-center text-center">
-            <div className="col-xl-6 col-lg-8 col-md-10">
-              <h1 className="text-40 md:text-25 fw-600 text-white">{t("bannertitle")}</h1>
+            <div className="col-xl-12 col-lg-12 col-md-10">
+              <h1 className="text-40 md:text-25 fw-600 text-dark-2">{t("bannertitle")}</h1>
             </div>
           </div>
         </div>
@@ -51,8 +51,7 @@ const About = () => {
           <div className="row y-gap-20 justify-between items-end">
             <div className="col-auto">
               <div className="sectionTitle -md">
-                <h2 className="sectionTitle__title">Our Team</h2>
-                <p className=" sectionTitle__text mt-5 sm:mt-0">Lorem ipsum dolor sit amet</p>
+                <h2 className="sectionTitle__title">{t("ourteam")}</h2>
               </div>
             </div>
           </div>
