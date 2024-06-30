@@ -1,28 +1,18 @@
 "use client";
 
 import Link from "next/link";
-import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-import {
-  homeItems,
-  blogItems,
-  pageItems,
-  dashboardItems,
-  categorieMobileItems,
-  categorieMegaMenuItems,
-} from "../../data/mainMenuData";
+import { Sidebar, Menu, MenuItem } from "react-pro-sidebar";
+import { categorieMegaMenuItems } from "../../data/mainMenuData";
 import { isActiveLink } from "@/utils/linkActiveChecker";
 import Social from "../common/social/Social";
 import ContactInfo from "./ContactInfo";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useTranslations } from "next-intl";
 
 const MobileMenu = () => {
   const pathname = usePathname();
   const t = useTranslations("Header");
-  const [isActiveParent, setIsActiveParent] = useState(false);
-  const [isActiveNestedParentTwo, setisActiveNestedParentTwo] = useState(false);
-  const [isActiveNestedParent, setisActiveNestedParent] = useState(false);
 
   const router = useRouter();
 

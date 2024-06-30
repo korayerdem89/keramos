@@ -20,24 +20,23 @@ const HeroSection = () => {
             }}
           >
             <SwiperSlide>
-              <div className="masthead__bg bg-dark-3">
+              <div className="masthead__bg">
                 <Player
                   playsInline
                   autoPlay
                   muted
                   loop
                   src="/videos/herovideo.mp4"
-                  className="object-fit-cover h-100"
+                  className="object-fit-contain h-100"
                 />
               </div>
               {/* End .masthead__bg */}
-
-              <div className="container">
+              <div className="container ">
                 <div className="row justify-center">
                   <div className="col-xl-19">
                     <div className="text-center">
                       <h2
-                        className="text-30 lg:text-20 fw-300 sm:text-10 text-white"
+                        className="text-30 lg:text-20 fw-300 sm:text-10 text-white "
                         data-aos="fade-up"
                         data-aos-delay="300"
                       >
