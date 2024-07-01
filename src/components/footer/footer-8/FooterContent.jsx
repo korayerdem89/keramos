@@ -10,12 +10,16 @@ const FooterContent = () => {
       menuList: [
         { name: t("about"), routerPath: "/" },
         { name: t("blog"), routerPath: "/" },
+        { name: t("reservation"), routerPath: "/tr/destinations" },
       ],
     },
     {
       id: 2,
       title: t("support"),
-      menuList: [{ name: t("contact"), routerPath: "/" }],
+      menuList: [
+        { name: t("contact"), routerPath: "/" },
+        { name: t("faq"), routerPath: "/tr/help-center" },
+      ],
     },
   ];
   return (

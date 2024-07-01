@@ -9,7 +9,7 @@ const index = () => {
   return (
     <footer className="footer -type-2 bg-dark-2 text-white">
       <div className="container">
-        <div className="pt-60 pb-60">
+        <div className=" pb-60">
           <div className="row y-gap-40 justify-between xl:justify-start">
             <div className="col-xl-4 col-lg-6">
               <img src="/img/general/logo-small.png" alt="image" />
@@ -27,7 +27,7 @@ const index = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 pt-60">
               <div className="row y-gap-30">
                 {/* End .col */}
 

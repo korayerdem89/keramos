@@ -8,7 +8,7 @@ const LanguageMegaMenu = ({ textClass }) => {
   const handleCurrency = () => setClick((prevState) => !prevState);
 
   const languageContent = [
-    { id: 1, language: "Türkçe", country: "Turkiye" },
+    { id: 1, language: "Türkçe", country: "Türkçe" },
     { id: 2, language: "English", country: "English" },
     { id: 3, language: "Español", country: "España" },
     { id: 4, language: "Français", country: "France" },
@@ -26,13 +26,13 @@ const LanguageMegaMenu = ({ textClass }) => {
       {/* Start language currency Selector */}
       <div className="col-auto">
         <button className={`d-flex items-center text-14 ${textClass}`} onClick={handleCurrency}>
-          <Image
+          {/* <Image
             width={20}
             height={20}
             src="/img/general/lang.png"
             alt="image"
             className="rounded-full mr-10"
-          />
+          /> */}
           <span className="js-language-mainTitle"> {selectedCurrency.country}</span>
           <i className="icon-chevron-sm-down text-7 ml-15" />
         </button>

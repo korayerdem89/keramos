@@ -12,8 +12,8 @@ const ContactInfo = () => {
     {
       id: 2,
       title: t("email"),
-      action: "mailto:xyz@abc.com",
-      text: "info@keramos.com",
+      action: "mailto:info@keramosailing.com",
+      text: "info@keramosailing.com",
     },
   ];
   return (

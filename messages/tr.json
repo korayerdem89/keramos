@@ -58,7 +58,9 @@
     "support": "Destek",
     "about": "Hakkmızda",
     "blog": "Blog",
-    "contact": "İletişim"
+    "contact": "İletişim",
+    "faq": "SSS",
+    "reservation": "Rezervasyon Yap"
   },
   "Reservation": {
     "bannertitle": "Rezervasyon Yap",

@@ -59,7 +59,7 @@ const Header1 = () => {
                         </li>
                         {/* End home page menu */}
 
-                        <li className={pathname === "/destinations" ? "current" : ""}>
+                        <li className={pathname === "/tr/destinations" ? "current" : ""}>
                           <Link href="/tr/destinations">{t("destinations")}</Link>
                         </li>
                         {/* End Destinatinos single menu */}
