@@ -28,9 +28,10 @@ const HeroSection = () => {
                   autoPlay
                   muted
                   loop
-                  src="/img/video/herovideo.mp4"
                   className="object-fit-cover h-100"
-                />
+                >
+                  <source src="https://firebasestorage.googleapis.com/v0/b/deneme-4e99f.appspot.com/o/herovideo.mp4?alt=media&token=76be6bba-b821-4081-b3f2-a9e4ab2ac9af" />
+                </Player>
               </div>
               {/* End .masthead__bg */}
               <div className="container pb-60">
