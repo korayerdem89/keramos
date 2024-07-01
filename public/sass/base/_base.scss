@@ -83,3 +83,111 @@ p {
   font-size: $font-size;
   color: var(--color-light-1);
 }
+
+///hero section related css
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+}
+
+@media (min-width: 250px) {
+  .hero-section {
+    height: 25vh;
+  }
+}
+
+@media (min-width: 350px) {
+  .hero-section {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 550px) {
+  .hero-section {
+    height: 40vh;
+  }
+  .content-overlay h1 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-section {
+    height: 45vh;
+  }
+  .content-overlay h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 860px) {
+  .hero-section {
+    height: 55vh;
+  }
+  .content-overlay h1 {
+    font-size: 20px;
+  }
+}
+
+/* Büyük ekranlar için */
+@media (min-width: 1024px) {
+  .hero-section {
+    height: 60vh;
+  }
+  .content-overlay h1 {
+    font-size: 30px;
+    width: 50%;
+  }
+}
+
+/* Ekstra büyük ekranlar için */
+@media (min-width: 1280px) {
+  .hero-section {
+    height: 80vh;
+  }
+  .content-overlay h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1512px) {
+  .hero-section {
+    height: 90vh;
+  }
+  .content-overlay h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1712px) {
+  .hero-section {
+    height: 100vh;
+  }
+  .content-overlay h1 {
+    font-size: 40px;
+  }
+}
+
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
