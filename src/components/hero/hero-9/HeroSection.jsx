@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
 import { Player } from "video-react";
 import { useTranslations } from "next-intl";
-
+import ReactPlayer from "react-player";
 const HeroSection = () => {
   const t = useTranslations("Banner");
   return (
@@ -21,17 +21,15 @@ const HeroSection = () => {
           >
             <SwiperSlide>
               <div className="masthead__bg">
-                <Player
-                  fluid={true}
-                  controls={false}
-                  playsInline
-                  autoPlay
-                  muted
+                <ReactPlayer
+                  playing
                   loop
-                  className="object-fit-cover h-100"
-                >
-                  <source src="https://firebasestorage.googleapis.com/v0/b/deneme-4e99f.appspot.com/o/herovideo.mp4?alt=media&token=76be6bba-b821-4081-b3f2-a9e4ab2ac9af" />
-                </Player>
+                  controls={false}
+                  muted
+                  width="100%"
+                  height="100%"
+                  url="https://vimeo.com/972511060"
+                />
               </div>
               {/* End .masthead__bg */}
               <div className="container pb-60">

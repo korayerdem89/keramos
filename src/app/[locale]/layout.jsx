@@ -1,6 +1,5 @@
 import ClientLayout from "./ClientLayout";
 import { getMessages } from "next-intl/server";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 export default async function RootLayout({ children, params: { locale } }) {
   const messages = await getMessages();
 
