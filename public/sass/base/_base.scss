@@ -94,19 +94,32 @@ p {
 
 @media (min-width: 250px) {
   .hero-section {
-    height: 25vh;
+    height: 18vh;
   }
 }
 
 @media (min-width: 350px) {
   .hero-section {
-    height: 30vh;
+    height: 25vh;
   }
 }
 
+@media (min-width: 500px) {
+  .hero-section {
+    height: 28vh;
+  }
+}
 @media (min-width: 550px) {
   .hero-section {
-    height: 40vh;
+    height: 32vh;
+  }
+  .content-overlay h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 620px) {
+  .hero-section {
+    height: 37vh;
   }
   .content-overlay h1 {
     font-size: 20px;
@@ -186,6 +199,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: rgba($color: #000000, $alpha: 0.2);
   align-items: center;
   color: white;
   text-align: center;
