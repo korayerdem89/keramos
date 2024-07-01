@@ -24,7 +24,6 @@ const HeroSection = () => {
                 <Player
                   fluid={true}
                   controls={false}
-                  playsInline
                   autoPlay
                   muted
                   loop
