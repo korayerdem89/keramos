@@ -100,15 +100,26 @@ p {
 
 @media (min-width: 350px) {
   .hero-section {
-    height: 25vh;
+    height: 22vh;
+  }
+}
+@media (min-width: 390px) {
+  .hero-section {
+    height: 24vh;
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 457px) {
   .hero-section {
-    height: 28vh;
+    height: 26vh;
   }
 }
+@media (min-width: 500px) {
+  .hero-section {
+    height: 29vh;
+  }
+}
+
 @media (min-width: 550px) {
   .hero-section {
     height: 32vh;
